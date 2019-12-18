@@ -49,6 +49,19 @@ int seen =0;
         addprod.setForeground(Color.black);
     }
     
+    public void changeColorBlack(){
+        addprice.setBackground(Color.black);
+        addprice.setForeground(Color.white);
+        addprod.setBackground(Color.black);
+        addprod.setForeground(Color.white);
+    }
+    public void changeColorwhite(){
+        addprice.setBackground(Color.white);
+        addprice.setForeground(Color.black);
+        addprod.setBackground(Color.white);
+        addprod.setForeground(Color.black);
+    }
+    
     public void showProds(String key){
      try {
          Class.forName(forname);
